@@ -39,7 +39,7 @@ const Contact = () => {
           <Github className="h-5 w-5" /> GitHub
         </a>
         <a
-          href="https://www.linkedin.com/in/jayant_singh_patel"
+          href="https://www.linkedin.com/in/jayant-singh-patel"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center gap-2 rounded-2xl border border-slate-800 bg-slate-900/60 p-5 text-slate-200 transition hover:border-slate-700 hover:bg-slate-800/60"

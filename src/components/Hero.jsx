@@ -95,7 +95,7 @@ const Hero = () => {
             <Github className="h-5 w-5" />
           </a>
           <a
-            href="https://www.linkedin.com/in/jayant_singh_patel"
+            href="https://www.linkedin.com/in/jayant-singh-patel"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-slate-700/80 bg-slate-900/60 p-2 text-slate-300 transition hover:border-slate-600 hover:bg-slate-800/60"
