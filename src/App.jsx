@@ -1,28 +1,33 @@
-import { useState } from 'react'
+import React from 'react';
+import Hero from './components/Hero';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">
-          Vibe Coding Platform
-        </h1>
-        <p className="text-gray-600 mb-6">
-          Your AI-powered development environment
-        </p>
-        <div className="text-center">
-          <button
-            onClick={() => setCount(count + 1)}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
-          >
-            Count is {count}
-          </button>
+    <div className="min-h-screen bg-slate-950 text-slate-100">
+      <header className="fixed left-0 right-0 top-0 z-50 mx-auto max-w-7xl px-6 py-4">
+        <div className="flex items-center justify-between rounded-2xl border border-slate-800/80 bg-slate-900/60 px-4 py-2 backdrop-blur-md">
+          <a href="#home" className="text-sm font-semibold tracking-tight text-white">
+            Jayant Singh Patel
+          </a>
+          <nav className="hidden gap-4 sm:flex">
+            <a href="#skills" className="text-sm text-slate-300 hover:text-white">Skills</a>
+            <a href="#projects" className="text-sm text-slate-300 hover:text-white">Projects</a>
+            <a href="#contact" className="text-sm text-slate-300 hover:text-white">Contact</a>
+          </nav>
         </div>
-      </div>
-    </div>
-  )
-}
+      </header>
 
-export default App
+      <main className="space-y-2">
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+    </div>
+  );
+};
+
+export default App;
