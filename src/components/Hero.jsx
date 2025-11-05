@@ -71,7 +71,7 @@ const Hero = () => {
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-0.5" />
           </a>
           <a
-            href="mailto:jayant@example.com"
+            href="mailto:singhjayant17062005@gmail.com"
             className="inline-flex items-center gap-2 rounded-full border border-slate-700/80 bg-slate-900/60 px-5 py-2.5 font-medium text-slate-200 backdrop-blur-md transition hover:border-slate-600 hover:bg-slate-800/60"
           >
             <Mail className="h-5 w-5" /> Contact
@@ -86,7 +86,7 @@ const Hero = () => {
           className="mt-6 flex items-center gap-4"
         >
           <a
-            href="https://github.com/"
+            href="https://github.com/atomiccr7"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-slate-700/80 bg-slate-900/60 p-2 text-slate-300 transition hover:border-slate-600 hover:bg-slate-800/60"
@@ -95,7 +95,7 @@ const Hero = () => {
             <Github className="h-5 w-5" />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/jayant_singh_patel"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-slate-700/80 bg-slate-900/60 p-2 text-slate-300 transition hover:border-slate-600 hover:bg-slate-800/60"

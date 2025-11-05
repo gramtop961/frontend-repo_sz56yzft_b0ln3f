@@ -4,7 +4,7 @@ import { Mail, Github, Linkedin, Copy } from 'lucide-react';
 
 const Contact = () => {
   const [copied, setCopied] = useState(false);
-  const email = 'jayant@example.com';
+  const email = 'singhjayant17062005@gmail.com';
 
   const copyEmail = async () => {
     try {
@@ -31,7 +31,7 @@ const Contact = () => {
           <Mail className="h-5 w-5" /> Email
         </a>
         <a
-          href="https://github.com/"
+          href="https://github.com/atomiccr7"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center gap-2 rounded-2xl border border-slate-800 bg-slate-900/60 p-5 text-slate-200 transition hover:border-slate-700 hover:bg-slate-800/60"
@@ -39,7 +39,7 @@ const Contact = () => {
           <Github className="h-5 w-5" /> GitHub
         </a>
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/jayant_singh_patel"
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center gap-2 rounded-2xl border border-slate-800 bg-slate-900/60 p-5 text-slate-200 transition hover:border-slate-700 hover:bg-slate-800/60"
